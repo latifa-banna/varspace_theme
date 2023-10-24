@@ -1,0 +1,65 @@
+{
+  "StoreinoWelcome": {
+    "description": "Auto imported from components/StoreinoWelcome.vue"
+  },
+  "SectionsAbout": {
+    "description": "Auto imported from components/sections/about.vue"
+  },
+  "SectionsApplication": {
+    "description": "Auto imported from components/sections/Application.vue"
+  },
+  "SectionsBlog": {
+    "description": "Auto imported from components/sections/Blog.vue"
+  },
+  "SectionsBrowse": {
+    "description": "Auto imported from components/sections/browse.vue"
+  },
+  "SectionsFacilities": {
+    "description": "Auto imported from components/sections/facilities.vue"
+  },
+  "SectionsFetch": {
+    "description": "Auto imported from components/sections/Fetch.vue"
+  },
+  "SectionsFooter": {
+    "description": "Auto imported from components/sections/footer.vue"
+  },
+  "SectionsFreeTour": {
+    "description": "Auto imported from components/sections/freeTour.vue"
+  },
+  "SectionsGallery": {
+    "description": "Auto imported from components/sections/gallery.vue"
+  },
+  "SectionsHeader": {
+    "description": "Auto imported from components/sections/header.vue"
+  },
+  "SectionsHowItWorks": {
+    "description": "Auto imported from components/sections/howItWorks.vue"
+  },
+  "SectionsItems": {
+    "description": "Auto imported from components/sections/items.vue"
+  },
+  "SectionsLocations": {
+    "description": "Auto imported from components/sections/locations.vue"
+  },
+  "SectionsMainImage": {
+    "description": "Auto imported from components/sections/mainImage.vue"
+  },
+  "SectionsOurClients": {
+    "description": "Auto imported from components/sections/ourClients.vue"
+  },
+  "SectionsOurSpaces": {
+    "description": "Auto imported from components/sections/OurSpaces.vue"
+  },
+  "SectionsPageEmploye": {
+    "description": "Auto imported from components/sections/PageEmploye.vue"
+  },
+  "SectionsSettings": {
+    "description": "Auto imported from components/sections/Settings.vue"
+  },
+  "SectionsTestimonials": {
+    "description": "Auto imported from components/sections/testimonials.vue"
+  },
+  "SiAppLoader": {
+    "description": "Auto imported from components/si/AppLoader.vue"
+  }
+}
