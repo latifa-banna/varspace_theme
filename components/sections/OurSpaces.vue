@@ -30,59 +30,25 @@
 export default {
   data() {
     return {
-      menu: null,
-      main_image: null,
+    
+    
       product: [],
-      params: null,
-      results: null,
+    
       result: null,
-      name: null,
-      imageSources: [
-        this.$settings.images_head1.src,
-        this.$settings.images_head2.src,
-        this.$settings.images_head3.src,
-        // Add more image sources as needed
-      ],
-      currentIndex: 0,
     };
   },
   async mounted() {
-    // try {
-    //   const element = document.querySelector(".gallery_images");
-    //   const styles = window.getComputedStyle(element);
-    //   // Proceed with using 'styles'
-    //   new Swiper(".gallery_images", {
-    //     // Swiper options here
-    //   });
-    // } catch (error) {
-    //   console.error("An error occurred:", error);
-    // }
-
-    // console.log("image" + this.$settings.images_head1.src);
+    
    
-    this.main_image = this.$settings.main_image;
 
     const response = await this.$storeino.products.search();
     this.result = response.data.results;
 
-    // console.log(response);
-    // console.log(response.data);
-    // console.log(this.result);
-    // console.log("description : " + this.result[0].description);
+   
 
-    // console.log(this.result[0].images[0].src);
-    this.startImageRotation();
   },
 
-  methods: {
-    changeImage() {
-      this.currentIndex = (this.currentIndex + 1) % this.imageSources.length;
-    },
-    startImageRotation() {
-      this.changeImage(); // Change the image immediately
-      setInterval(this.changeImage, 5000); // Change the image every 10 seconds
-    },
-  },
+ 
 };
 </script>
 <style scoped>

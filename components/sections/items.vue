@@ -2,20 +2,20 @@
     <div>
     <div class="container">
       <div class="box">
-        <div>{{$settings.items.fastInternet.text}}</div>
-        <div>{{$settings.items.fastInternet.number}}mb/s</div>
+        <div>Ultra-fast Internet</div>
+        <div>150mb/s</div>
       </div>
       <div class="box">
-        <div>{{$settings.items.spaces.text}}</div>
-        <div>{{$settings.items.spaces.number}}+</div>
+        <div>Available Spaces</div>
+        <div>50+</div>
       </div>
       <div class="box">
-        <div>{{$settings.items.activeNumber.text}}</div>
-        <div>{{$settings.items.activeNumber.number}}+</div>
+        <div>Active Members</div>
+        <div>200+</div>
       </div>
       <div class="box">
-        <div>{{$settings.items.positiveReview.text}}</div>
-        <div>{{$settings.items.positiveReview.number}}%</div>
+        <div>Positive Review</div>
+        <div>99.9%</div>
       </div>
     </div>
     <div class="container_text_center">

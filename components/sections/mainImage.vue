@@ -18,8 +18,8 @@ export default {
       imageSources: [
         
       this.$settings.images_head1 ? this.$settings.images_head1.src:'',
-      this.$settings.images_head1 ? this.$settings.images_head2.src:'',
-      this.$settings.images_head1 ? this.$settings.images_head3.src:'',
+      this.$settings.images_head2 ? this.$settings.images_head2.src:'',
+      this.$settings.images_head3 ? this.$settings.images_head3.src:'',
         // Add more image sources as needed
       ],
       currentIndex: 0,
